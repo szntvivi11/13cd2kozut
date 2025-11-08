@@ -29,7 +29,7 @@ app.get("/regiok", (req, res) => {
         if (err) return res.json(err);
         return res.json(result)
     })
-})  
+})  //idaig  
 
 app.get("/regiok_8", (req, res) => {
     const sql = "SELECT * FROM `regiok` WHERE Rid = 8";
